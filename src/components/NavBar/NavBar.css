@@ -1,0 +1,19 @@
+.NavBar{
+	width: 100%;
+    background-color: cornsilk;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.botones{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 15%;
+    margin-left: 40px;
+    background-color: coral;
+    color: #fff;
+    border-radius: 20px;
+}
