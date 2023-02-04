@@ -1,16 +1,18 @@
 // Importo los estilos del navbar del css
-import CartWidget from "../CartWidget/CartWidget";
 import "./NavBar.css"
+import CartWidget from "../CartWidget/CartWidget";
+import { Link } from "react-router-dom";
 
 //Creo el componente del menu de navegacion
 const NavBar = () => {
     return (
         <nav>
-            <div className="NavBar">
-                <button className="botones">Perfumes</button>
-                <button className="botones">Desodorantes</button>
-                <button className="botones">Cuidados diarios</button>
-                <button className="botones">Jabones</button>
+            <div className='gridContainerResponsive NavBar'>
+                    <Link className="botones" to={"/"} >Home</Link>
+                    <Link className="botones" to={"/categoria/perfumeria"} >Perfumes</Link>
+                    <Link className="botones" to={"/categoria/desodorantes"}>Desodorantes</Link>
+                    <Link className="botones" to={"/categoria/cremas"}>Cuidados diarios</Link>
+                    <Link className="botones" to={"/categoria/jabones"}>Jabones</Link>
                 <CartWidget/>
             </div>
             
