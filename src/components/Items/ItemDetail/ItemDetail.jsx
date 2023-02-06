@@ -10,7 +10,7 @@ const ItemDetail = (item) => {
                  <img src = {item.imagen} className="card-img-top" alt = {item.nombre} />
                  <div className ="card-body"> 
                  <h3 className="card-title"> {item.nombre} </h3>
-                 <p className="card-text"> El spray perfumado de Tododia es una invitación a vestirte con un perfume suave. Combina el sedoso aroma a frambuesa y pimienta roja en tu piel, hará que tenga una sensación irresistible, hidratada y refrescante. Siente la ligereza en tu cuerpo al usar el spray perfumado de Tododia al caminar por las calles.</p>
+                 <p className="card-text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic consectetur reprehenderit sint blanditiis maxime, molestiae ut. Odio corrupti nisi corporis, veniam magnam ab velit a nulla nostrum, ipsum, modi ex.</p>
                  <h3> ${item.precio}   </h3>
                  <div>
                      <ItemCount stock ={10} initial = {1} onAdd = {0} />
