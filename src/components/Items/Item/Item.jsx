@@ -1,5 +1,4 @@
 
-
 const Item = ({id, nombre, imagen, precio, descripcion}) =>{
     return(
         
@@ -9,6 +8,7 @@ const Item = ({id, nombre, imagen, precio, descripcion}) =>{
                     <h5 className="card-title">{nombre}</h5>
                         <p className="card-text">${precio}</p>
                         <p>{descripcion}</p>
+                        
                     </div>
                 </div>
             
